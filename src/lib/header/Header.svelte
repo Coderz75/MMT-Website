@@ -20,16 +20,17 @@
     courseExpanded = !courseExpanded;
   }
 
-  const MOBILE = 1199; //Based on InnerWidth
+  const MOBILE = 1199;
 
   const navPages = [
+  	{ path: "/MMT2026", text: "MMT 2026", hasSubPages: false},
+
 	{
-		path: "/MMM",
+		path: "/MMT2026 ",
 		text: "Competitions",
 		hasSubPages: true,
-		index: 2,
+		index: 1,
 		subPages: [
-			{ path: "/MMM", text: "Mustang Math Mania", hasSubPages: false },
 			{ path: "/past-tests", text: "Past Tests", hasSubPages: false },
 			{ path:"https://comp.mt/", text:"COMP Platform", hasSubPages:false},
 		],
@@ -51,6 +52,7 @@
     { path: "/sponsors", text: "Sponsors", hasSubPages: false },
     { path: "/donate", text: "Donate", hasSubPages: false },
     { path: "/parent-info", text: "Parent Info", hasSubPages: false },
+	
   ];
   const show = [0, 0, 0];
 
