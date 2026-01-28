@@ -67,23 +67,21 @@
         }
     ]
 
-const regLink = "https://docs.google.com/document/d/1-XqRcdgC7jh6wygM2BiPKZpQHOmYbRuNrciHJ1aUc2s/edit?tab=t.0#heading=h.i7gdx55nkvd8";
-
    const locations = [
-    { name: "Online", date: "04/11/2026", location: "At home!", early: "$8", earlyDate: "March 11", normal: "$10", normalDate: "March 28", late: "$15", lateDate: "April 4", note: "Online only if unable to attend in-person." },
-    { name: "Colorado", date: "04/11/2026", location: "Angevine Middle School", address: "1150 W South Boulder Road, Lafayette, CO 80026", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4" },
-    { name: "Florida", date: "04/04/2026", location: "Pine View School", address: "1 Python Path, Osprey, FL 34229", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" },
-    { name: "Georgia", date: "04/11/2026", location: "Old Atlanta Community Room", address: "810 Nichols Road, Suwanee, GA 30024", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4" },
-    { name: "Massachusetts", date: "04/04/2026", location: "Thurston Middle School", address: "850 High St, Westwood, MA 02090", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" },
-    { name: "Michigan", date: "04/11/2026", location: "Novi High School", address: "24062 Taft Road, Novi, Michigan 48375", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4" },
-    { name: "Nevada", date: "03/21/2026", location: "Coral Academy of Science (Sandy Ridge)", address: "1051 Sandy Ridge Ave, Henderson, NV 89052", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14" },
-    { name: "New Jersey", date: "04/04/2026", location: "Rutgers University", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" },
-    { name: "Northern California", date: "04/04/2026", location: "TBD", address: "San Jose / Fremont Area", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" },
-    { name: "Ohio", date: "04/12/2026", location: "The Wellington School", address: "3650 Reed Rd, Columbus, OH 43220", early: "$15", earlyDate: "March 12", normal: "$20", normalDate: "March 29", late: "$25", lateDate: "April 5" },
-    { name: "Southern California", date: "03/21/2026", location: "Earl Warren Middle School", address: "155 Stevens Ave, Solana Beach, CA 92075", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14", note: "Lunch is INCLUDED" },
-    { name: "Washington", date: "04/04/2026", location: "TBD", address: "Most likely Kent, WA (Confirmed Feb)", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" },
-    { name: "Illinois", date: "TBD", location: "TBD", address: "Details coming soon", early: "$15", earlyDate: "TBD", normal: "$20", normalDate: "TBD", late: "$25", lateDate: "TBD" },
-    { name: "Missouri", date: "TBD", location: "TBD", address: "Details coming soon", early: "$15", earlyDate: "TBD", normal: "$20", normalDate: "TBD", late: "$25", lateDate: "TBD" }
+    { name: "Online", date: "04/11/2026", location: "At home!", early: "$8", earlyDate: "March 11", normal: "$10", normalDate: "March 28", late: "$15", lateDate: "April 4", note: "Online only if unable to attend in-person.", link: "https://comp.mt/student/1/21" },
+    { name: "Colorado", date: "04/11/2026", location: "Angevine Middle School", address: "1150 W South Boulder Road, Lafayette, CO 80026", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4",link: "https://comp.mt/student/1/29" },
+    { name: "Florida", date: "04/04/2026", location: "Pine View School", address: "1 Python Path, Osprey, FL 34229", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/30" },
+    { name: "Georgia", date: "04/11/2026", location: "Old Atlanta Community Room", address: "810 Nichols Road, Suwanee, GA 30024", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4", link: "https://comp.mt/student/1/28" },
+    { name: "Massachusetts", date: "04/04/2026", location: "Thurston Middle School", address: "850 High St, Westwood, MA 02090", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/24" },
+    { name: "Michigan", date: "04/11/2026", location: "Novi High School", address: "24062 Taft Road, Novi, Michigan 48375", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4", link: "https://comp.mt/student/1/" },
+    { name: "Nevada", date: "03/21/2026", location: "Coral Academy of Science (Sandy Ridge)", address: "1051 Sandy Ridge Ave, Henderson, NV 89052", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14", link: "https://comp.mt/student/1" },
+    { name: "New Jersey", date: "04/04/2026", location: "Rutgers University", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/27" },
+    { name: "Northern California", date: "04/04/2026", location: "TBD", address: "San Jose / Fremont Area", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/25" },
+    { name: "Ohio", date: "04/12/2026", location: "The Wellington School", address: "3650 Reed Rd, Columbus, OH 43220", early: "$15", earlyDate: "March 12", normal: "$20", normalDate: "March 29", late: "$25", lateDate: "April 5" , link: "https://comp.mt/student/1/31"},
+    { name: "Southern California", date: "03/21/2026", location: "Earl Warren Middle School", address: "155 Stevens Ave, Solana Beach, CA 92075", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14", note: "Lunch is INCLUDED" , link: "https://comp.mt/student/1/26"},
+    { name: "Washington", date: "04/04/2026", location: "TBD", address: "Most likely Kent, WA (Confirmed Feb)", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28" , link: "https://comp.mt/student/1/23"},
+    { name: "Illinois", date: "TBD", location: "TBD", address: "Details coming soon", early: "$15", earlyDate: "TBD", normal: "$20", normalDate: "TBD", late: "$25", lateDate: "TBD", link: "https://comp.mt/student/1/22" },
+    { name: "Missouri", date: "TBD", location: "TBD", address: "Details coming soon", early: "$15", earlyDate: "TBD", normal: "$20", normalDate: "TBD", late: "$25", lateDate: "TBD", link: "https://comp.mt/student/1" }
   ];
 
     const potentialTopicImages = [
@@ -108,8 +106,8 @@ const regLink = "https://docs.google.com/document/d/1-XqRcdgC7jh6wygM2BiPKZpQHOm
 <PageHeader
 	title="MMT 2026"
 	description="Mustang Math Tournament 2026"
-	button_url="https://docs.google.com/document/d/1-XqRcdgC7jh6wygM2BiPKZpQHOmYbRuNrciHJ1aUc2s/edit?tab=t.0"
-	button_text="Sign Up Instructions"
+	button_url="https://comp.mt/student/1"
+	button_text="Sign Up Here!"
 	id="SignUpMMT"
 />
 
@@ -186,7 +184,7 @@ Mustang Math Tournament is a unique and enriching experience for middle schooler
           {/if}
         </div>
 
-        <a href={regLink} class="reg-btn" target="_blank">Register for {loc.name}</a>
+        <a href={loc.link} class="reg-btn" target="_blank">Register for {loc.name}</a>
       </div>
     {/each}
   </div>
