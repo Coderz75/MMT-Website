@@ -61,7 +61,7 @@
             title: "Mustang Math Tournament Participant, Nevada 2025"
         },
         {
-            quote: "It's a fun opportunity for the kids to work in teams.",
+            quote: "MMT is one of the only math competitions which I am excited for instead of stressed. I love how engaging and interesting each round is.",
             author: "David Freeman",
             title: "MMT 2025 Coach, Northern California"
         }
@@ -119,7 +119,21 @@
              <p style="font-size: 1.2em; margin: 5px">
           Mustang Math Tournament (MMT) is a math competition designed for middle school students around the nation. MMT is organized by Mustang Math, a 501(c)(3) nonprofit organization led by high school students! Every round of MMT is <b>entirely team-based</b>, incentivizing students to collaborate in order to navigate the challenging and interesting problems and master the unique game-like rounds. All participants receive themed <b>t-shirts, stickers, and pins!</b>
 <br>
+<br>
+<br>
 Mustang Math Tournament is a unique and enriching experience for middle schoolers <b>regardless of math level and expertise.</b> Check out some comments from past participants below!
+</p>
+        </PanelBox>
+    </FlexBox>
+</Section>
+
+<Section>
+    <br /> <br />
+    <Heading text="Free MMT Prep Seminar" size={4} textColor="#1B9AAA" />
+    <FlexBox>
+        <PanelBox width="80%" style="min-width: 360px;">
+             <p style="font-size: 1.2em; margin: 5px">
+         We are holding a free MMT prep seminar from 3/14-3/15 to help students prepare for the upcoming tournament. Join the <a href = 'https://classroom.google.com/c/NzQ5NDUyNDY2NjM1?cjc=7sogth4]! '>Google Classroom!</a>
 </p>
         </PanelBox>
     </FlexBox>
@@ -152,7 +166,10 @@ Mustang Math Tournament is a unique and enriching experience for middle schooler
 <Section>
   <div class="header-container">
     <Heading text="Tournament Locations" size={4} textColor="#1B9AAA" />
-    <p class="subtitle">Team Size: 3-4 (Incomplete teams of 1-2 may be merged with other teams to make a full team of 3-4)</p>
+    <p class="subtitle">Team Size: 3-4 (Incomplete teams of 1-2 may be merged with other teams to make a full team of 3-4)
+      <br>
+Register now for lower pricing! Scroll down for registration links, and <a href="https://docs.google.com/document/d/1UGQttaKlR3r7DLFzsrt4XUXEwxO6hV-2FyQwO6IC9aU/edit?usp=sharing">click here</a> for registration instructions!
+    </p>
   </div>
 
   <div class="location-grid">
