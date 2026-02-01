@@ -61,7 +61,7 @@
             title: "Mustang Math Tournament Participant, Nevada 2025"
         },
         {
-            quote: "It's a fun opportunity for the kids to work in teams.",
+            quote: "MMT is one of the only math competitions which I am excited for instead of stressed. I love how engaging and interesting each round is.",
             author: "David Freeman",
             title: "MMT 2025 Coach, Northern California"
         }
@@ -73,8 +73,8 @@
     { name: "Florida", date: "04/04/2026", location: "Pine View School", address: "1 Python Path, Osprey, FL 34229", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/30" },
     { name: "Georgia", date: "04/11/2026", location: "Old Atlanta Community Room", address: "810 Nichols Road, Suwanee, GA 30024", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4", link: "https://comp.mt/student/1/28" },
     { name: "Massachusetts", date: "04/04/2026", location: "Thurston Middle School", address: "850 High St, Westwood, MA 02090", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/24" },
-    { name: "Michigan", date: "04/11/2026", location: "Novi High School", address: "24062 Taft Road, Novi, Michigan 48375", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4", link: "https://comp.mt/student/1/" },
-    { name: "Nevada", date: "03/21/2026", location: "Coral Academy of Science (Sandy Ridge)", address: "1051 Sandy Ridge Ave, Henderson, NV 89052", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14", link: "https://comp.mt/student/1" },
+    { name: "Michigan", date: "04/11/2026", location: "Novi High School", address: "24062 Taft Road, Novi, Michigan 48375", early: "$15", earlyDate: "March 11", normal: "$20", normalDate: "March 28", late: "$25", lateDate: "April 4", link: "https://comp.mt/student/33/" },
+    { name: "Nevada", date: "03/21/2026", location: "Coral Academy of Science (Sandy Ridge)", address: "1051 Sandy Ridge Ave, Henderson, NV 89052", early: "$15", earlyDate: "Feb 21", normal: "$20", normalDate: "March 7", late: "$25", lateDate: "March 14", link: "https://comp.mt/student/32" },
     { name: "New Jersey", date: "04/04/2026", location: "Rutgers University", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/27" },
     { name: "Northern California", date: "04/04/2026", location: "TBD", address: "San Jose / Fremont Area", early: "$15", earlyDate: "March 4", normal: "$20", normalDate: "March 21", late: "$25", lateDate: "March 28", link: "https://comp.mt/student/1/25" },
     { name: "Ohio", date: "04/12/2026", location: "The Wellington School", address: "3650 Reed Rd, Columbus, OH 43220", early: "$15", earlyDate: "March 12", normal: "$20", normalDate: "March 29", late: "$25", lateDate: "April 5" , link: "https://comp.mt/student/1/31"},
@@ -119,7 +119,21 @@
              <p style="font-size: 1.2em; margin: 5px">
           Mustang Math Tournament (MMT) is a math competition designed for middle school students around the nation. MMT is organized by Mustang Math, a 501(c)(3) nonprofit organization led by high school students! Every round of MMT is <b>entirely team-based</b>, incentivizing students to collaborate in order to navigate the challenging and interesting problems and master the unique game-like rounds. All participants receive themed <b>t-shirts, stickers, and pins!</b>
 <br>
+<br>
+<br>
 Mustang Math Tournament is a unique and enriching experience for middle schoolers <b>regardless of math level and expertise.</b> Check out some comments from past participants below!
+</p>
+        </PanelBox>
+    </FlexBox>
+</Section>
+
+<Section>
+    <br /> <br />
+    <Heading text="Free MMT Prep Seminar" size={4} textColor="#1B9AAA" />
+    <FlexBox>
+        <PanelBox width="80%" style="min-width: 360px;">
+             <p style="font-size: 1.2em; margin: 5px">
+         We are holding a free MMT prep seminar from 3/14-3/15 to help students prepare for the upcoming tournament. Join the <a href = 'https://classroom.google.com/c/NzQ5NDUyNDY2NjM1?cjc=7sogth4]! '>Google Classroom!</a>
 </p>
         </PanelBox>
     </FlexBox>
@@ -152,7 +166,10 @@ Mustang Math Tournament is a unique and enriching experience for middle schooler
 <Section>
   <div class="header-container">
     <Heading text="Tournament Locations" size={4} textColor="#1B9AAA" />
-    <p class="subtitle">Team Size: 3-4 (Incomplete teams of 1-2 may be merged with other teams to make a full team of 3-4)</p>
+    <p class="subtitle">Team Size: 3-4 (Incomplete teams of 1-2 may be merged with other teams to make a full team of 3-4)
+      <br>
+Register now for lower pricing! Scroll down for registration links, and <a href="https://docs.google.com/document/d/1UGQttaKlR3r7DLFzsrt4XUXEwxO6hV-2FyQwO6IC9aU/edit?usp=sharing">click here</a> for registration instructions!
+    </p>
   </div>
 
   <div class="location-grid">
